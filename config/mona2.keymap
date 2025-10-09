@@ -98,10 +98,10 @@
 
         layer_2 {
             bindings = <
-&kp EQUAL             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp DOT                        &kp F7              &kp F8               &kp F10         &kp RS(UNDERSCORE)  &kp NON_US_BACKSLASH
-&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp STAR               &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp C_VOLUME_DOWN   &kp C_VOLUME_UP
-&kp BACKSPACE         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp FSLH  &trans       &trans  &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans
-&trans                &trans           &kp KP_NUMBER_0  &kp PLUS         &trans    &kp MINUS    &trans  &trans                                                                       &trans
+&kp EQUAL             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                       &kp F7              &kp F8               &kp F10         &kp RS(UNDERSCORE)  &kp NON_US_BACKSLASH
+&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp STAR                 &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp C_VOLUME_DOWN   &kp C_VOLUME_UP
+&kp BACKSPACE         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp FSLH    &trans       &trans  &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans
+&trans                &trans           &kp KP_NUMBER_0  &kp PLUS         &trans      &kp MINUS    &trans  &trans                                                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
