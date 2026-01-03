@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R               &kp T                                                         &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F               &kp G                                      &kp C_VOLUME_UP    &kp H        &kp J  &lt 3 K    &lt 1 L  &kp MINUS
-&kp Z      &kp X         &kp C         &kp V               &kp B        &lt 4 RS(RC(RG(NUMBER_4)))    &kp C_VOLUME_DOWN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_WIN LANG2  &lt 1 SPACE  &mt LEFT_SHIFT LANG1          &lt 3 BACKSPACE    &lt 2 ENTER                             &kp ESCAPE
+&kp Q      &kp W         &kp E         &kp R                &kp T                                                       &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F                &kp G                                      &kp F7           &kp H        &kp J  &lt 3 K    &lt 1 L  &kp MINUS
+&kp Z      &kp X         &kp C         &kp V                &kp B        &lt 4 RS(RC(RG(NUMBER_4)))    &kp F10          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LEFT_WIN K_MUTE  &lt 1 SPACE  &mt LEFT_SHIFT CAPSLOCK       &lt 3 BACKSPACE  &lt 2 ENTER                             &kp ESCAPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -98,13 +98,13 @@
 
         layer_2 {
             bindings = <
-&kp EQUAL             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                       &kp F7              &kp F8               &kp F10         &kp RS(UNDERSCORE)  &kp NON_US_BACKSLASH
-&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp STAR                 &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp UP_ARROW    &kp C_VOLUME_DOWN   &kp C_VOLUME_UP
-&kp BACKSPACE         &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp FSLH    &trans       &trans  &trans              &kp LEFT_ARROW       &kp DOWN_ARROW  &kp RIGHT_ARROW     &trans
-&trans                &trans           &kp KP_NUMBER_0  &kp PLUS         &trans      &kp MINUS    &trans  &trans                                                                       &trans
+&kp EQUAL             &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                           &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp STAR                     &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp FSLH     &trans          &trans  &trans  &trans          &trans          &trans           &trans
+&trans                &trans           &trans           &trans           &kp KP_PLUS  &kp KP_MINUS    &trans  &trans                                                   &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_3 {
