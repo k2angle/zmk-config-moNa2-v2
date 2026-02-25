@@ -9,6 +9,9 @@ config ZMK_BLE
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config MIPI_DBI
+    bool
+
 config INPUT
     default y
 
