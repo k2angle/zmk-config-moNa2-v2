@@ -88,7 +88,7 @@
 &trans           &trans       &trans         &trans                &trans                 &trans    &kp RG(RIGHT_BRACKET)     &kp RG(LEFT_BRACKET)                                                     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(LEFT_ARROW) LC(RIGHT_ARROW)>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_2 {
