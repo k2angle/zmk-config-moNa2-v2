@@ -34,9 +34,14 @@
             key-positions = <12 13>;
         };
 
-        lang1 {
-            bindings = <&kp LANG1>;
+        mb1 {
+            bindings = <&mkp MB1>;
             key-positions = <17 18>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
         };
     };
 
