@@ -119,13 +119,13 @@
 
         layer_3 {
             bindings = <
-&trans     &trans     &trans              &trans               &trans                    &trans  &trans  &trans  &trans  &trans
-&trans     &kt LG(S)  &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LG(Z)  &trans     &trans              &trans               &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &trans     &trans              &trans               &trans  &trans    &trans  &trans                          &trans
+&kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                            &kp RC(UP_ARROW)  &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &kp DELETE
+&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS                   &trans  &msc SCRL_UP      &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp K_MUTE
+&kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &trans          &trans  &msc SCRL_DOWN    &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans                &trans           &trans           &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_EQUAL    &trans  &trans                                                                        &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         layer_4 {
