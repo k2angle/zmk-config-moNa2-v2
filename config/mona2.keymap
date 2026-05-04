@@ -50,7 +50,7 @@
         };
 
         blue {
-            bindings = <&to 4>;
+            bindings = <&lt 4 ESC>;
             key-positions = <33 34 35>;
         };
     };
