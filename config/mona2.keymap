@@ -129,10 +129,10 @@
 
         layer_3 {
             bindings = <
-&kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                            &trans  &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &trans
-&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS                   &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp K_MUTE
-&kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &trans          &trans  &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&trans                &trans           &trans           &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_EQUAL    &trans  &trans                                                              &trans
+&kp BACKSPACE         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DOT                            &trans   &kp RS(P)           &kp UP_ARROW         &kp RS(N)          &trans
+&kp NON_US_BACKSLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS                   &trans  &kp F7   &kp LEFT_ARROW      &kp DOWN_ARROW       &kp RIGHT_ARROW    &kp K_MUTE
+&kp KP_NUMBER_0       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS  &trans          &trans  &kp F10  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+&trans                &trans           &trans           &kp KP_MULTIPLY  &kp KP_SLASH  &kp KP_EQUAL    &trans  &trans                                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
