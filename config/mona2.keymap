@@ -107,10 +107,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans     &trans     &kp LC(R)  &trans                                                            &trans                &kp RC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &kp PRINTSCREEN
-&trans  &trans     &trans     &kp LC(F)  &trans                                     &trans                 &kp RG(R)             &mkp MB1            &mkp MB2             &trans  &kp RG(W)
-&trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans              &trans                 &trans                 &kp RG(C)             &kp RG(V)           &mkp MB3             &trans  &kp RS(RC(RG(NUMBER_4)))
-&trans  &trans     &trans     &trans     &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)    &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                                   &trans
+&kp LC(Q)  &trans     &trans     &kp LC(R)  &trans                                               &trans                &kp RC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans  &kp PRINTSCREEN
+&trans     &kp LC(S)  &trans     &kp LC(F)  &trans                        &trans                 &kp RG(R)             &mkp MB1            &mkp MB2             &trans  &kp RG(W)
+&trans     &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans              &trans    &trans                 &kp RG(C)             &kp RG(V)           &mkp MB3             &trans  &kp RS(RC(RG(NUMBER_4)))
+&trans     &trans     &trans     &trans     &kp LA(LEFT_ARROW)  &trans    &kp RG(RIGHT_BRACKET)  &kp RG(LEFT_BRACKET)                                                   &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
